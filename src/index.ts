@@ -21,14 +21,12 @@ export const beautifier: Beautifier = {
       homepageUrl: "{{ beautifierHomepageUrl }}",
       installationUrl: "{{ beautifierInstallUrl }}",
       bugsUrl: "{{ beautifierBugsUrl }}",
-      badges: []
+      badges: [],
     },
   ],
   options: {
-    
   },
   resolveConfig: () => {
-
   },
   beautify({
     text,
